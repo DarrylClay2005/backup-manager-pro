@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Configuration files with sensitive information
+config.json
+.backup_manager_config.json
+
+# Backup directories (don't commit actual backups)
+Local_Backups/
+Timeshift_Snapshots/
+GoogleDrive/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup

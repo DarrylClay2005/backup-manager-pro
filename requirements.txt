@@ -1,0 +1,23 @@
+# Backup Manager Pro Requirements
+# Python dependencies for the application
+
+# GUI Framework (usually included with Python)
+# tkinter - Built into Python, no separate installation needed
+
+# Standard library modules used:
+# - json (built-in)
+# - os (built-in) 
+# - sys (built-in)
+# - subprocess (built-in)
+# - threading (built-in)
+# - datetime (built-in)
+# - pathlib (built-in)
+# - shutil (built-in)
+
+# System dependencies (installed via package manager):
+# - python3-tk (for tkinter GUI support)
+# - timeshift (for system snapshots)
+# - google-drive-ocamlfuse (optional, for Google Drive integration)
+
+# Note: This project uses only Python standard library modules
+# No additional Python packages need to be installed via pip
