@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Backup Manager Pro
+GenericName=System Backup Manager
+Comment=Modern backup system with local storage and Google Drive support
+Icon=drive-harddisk-system
+Exec=backup-manager-pro-gui
+Terminal=false
+Categories=System;Utility;Archiving;
+StartupNotify=true
+Keywords=backup;system;timeshift;google-drive;archive;restore;
+MimeType=
+X-Desktop-File-Install-Version=0.26

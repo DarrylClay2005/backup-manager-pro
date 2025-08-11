@@ -1,0 +1,14 @@
+ba5804943b57b320cafa87bcde019540  usr/bin/backup-manager-pro
+94f2818f9ec33fdbdeae1da598481ac9  usr/bin/backup-manager-pro-gui
+a76f6a8f78620e7c21c75284b1563a57  usr/lib/python3/dist-packages/backup_manager_pro-1.0.0.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/backup_manager_pro-1.0.0.egg-info/dependency_links.txt
+7d83290dc38ec43f928b6d3eb1af2783  usr/lib/python3/dist-packages/backup_manager_pro-1.0.0.egg-info/entry_points.txt
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/backup_manager_pro-1.0.0.egg-info/not-zip-safe
+3c112005d60e232bd55fae8e0501248d  usr/lib/python3/dist-packages/backup_manager_pro-1.0.0.egg-info/requires.txt
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/backup_manager_pro-1.0.0.egg-info/top_level.txt
+896bd253299f79e3733f0fbb10b3d120  usr/share/applications/backup-manager-pro.desktop
+2e956de2237450958fa5589d016741fe  usr/share/backup-manager-pro/backup_manager_script.sh
+d793821172e501ccc64b36d74bff2807  usr/share/doc/backup-manager-pro/LICENSE
+b239a8e118c003f2ae27881e69e88e4c  usr/share/doc/backup-manager-pro/README.md.gz
+ffdc497b70412443badfe0e8bcb3aebd  usr/share/doc/backup-manager-pro/changelog.Debian.gz
+818c3c565c6c32a9bfb0a011e5032b68  usr/share/doc/backup-manager-pro/copyright

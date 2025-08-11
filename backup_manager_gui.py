@@ -701,6 +701,10 @@ class ModernBackupManagerGUI:
         if messagebox.askokcancel("Quit", "Do you want to quit the Backup Manager?"):
             self.root.destroy()
 
-if __name__ == "__main__":
+def main():
+    """Main entry point for the application"""
     app = ModernBackupManagerGUI()
     app.run()
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE = 1
+export PYBUILD_NAME = backup-manager-pro
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_install:
+	dh_auto_install
+	# Install shell script
+	install -D -m 755 backup_manager_script.sh \
+		debian/backup-manager-pro/usr/share/backup-manager-pro/backup_manager_script.sh
+	# Install desktop file
+	install -D -m 644 data/backup-manager-pro.desktop \
+		debian/backup-manager-pro/usr/share/applications/backup-manager-pro.desktop

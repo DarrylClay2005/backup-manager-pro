@@ -1,0 +1,11 @@
+include README.md
+include LICENSE
+include requirements.txt
+include backup_manager_script.sh
+include data/backup-manager-pro.desktop
+recursive-include data *
+recursive-exclude build *
+recursive-exclude dist *
+recursive-exclude *.egg-info *
+global-exclude __pycache__
+global-exclude *.py[co]

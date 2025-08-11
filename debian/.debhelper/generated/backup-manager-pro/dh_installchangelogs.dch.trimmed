@@ -1,0 +1,15 @@
+backup-manager-pro (1.0.0-1) unstable; urgency=medium
+
+  * Initial release of Backup Manager Pro
+  * Modern GUI interface with Python Tkinter
+  * Multiple backup types: Timeshift snapshots, local backups, cloud storage  
+  * Real-time monitoring with live status updates and activity logging
+  * Configurable settings: backup paths, size limits, and scheduling
+  * Smart storage management with automatic cleanup of old backups
+  * Cross-platform compatibility across major Linux distributions
+  * Desktop integration with system menu support
+  * Google Drive integration for cloud backup storage
+  * Enhanced error handling and user feedback
+  * Professional UI design with progress indicators
+
+ -- Desmond Clay <desmond@example.com>  Sat, 11 Aug 2025 00:42:00 +0000

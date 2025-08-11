@@ -1,0 +1,30 @@
+Source: backup-manager-pro
+Section: utils
+Priority: optional
+Maintainer: Desmond Clay <desmond@example.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all
+Standards-Version: 4.6.2
+Homepage: https://github.com/DarrylClay2005/backup-manager-pro
+Vcs-Git: https://github.com/DarrylClay2005/backup-manager-pro.git
+Vcs-Browser: https://github.com/DarrylClay2005/backup-manager-pro
+Rules-Requires-Root: no
+
+Package: backup-manager-pro
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, python3-tk, timeshift
+Recommends: google-drive-ocamlfuse
+Suggests: rclone
+Description: Modern backup management system with GUI
+ Backup Manager Pro is a comprehensive backup management system with a modern
+ graphical interface designed for Linux systems. It provides automated system
+ backups using Timeshift, local backup storage, and optional Google Drive
+ integration.
+ .
+ Features:
+  - Modern GUI interface built with Python Tkinter
+  - Multiple backup types: Timeshift snapshots, local backups, cloud storage
+  - Real-time monitoring with live status updates and activity logging  
+  - Configurable settings: backup paths, size limits, and scheduling
+  - Smart storage management with automatic cleanup of old backups
+  - Cross-platform compatibility across major Linux distributions
+  - Desktop integration with system tray support
